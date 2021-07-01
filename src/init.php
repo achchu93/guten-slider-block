@@ -75,7 +75,7 @@ function guten_slider_block_cgb_block_assets() { // phpcs:ignore
 	 * @since 1.16.0
 	 */
 	register_block_type(
-		'cgb/block-guten-slider-block', array(
+		'gsb/block-guten-slider-block', array(
 			// Enqueue blocks.style.build.css on both frontend & backend.
 			'style'         => 'guten_slider_block-cgb-style-css',
 			// Enqueue blocks.build.js in the editor only.
