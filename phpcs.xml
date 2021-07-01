@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards">
+	<description>Guten Slider Block PHP_CodeSniffer ruleset.</description>
+
+	<!-- Configs -->
+	<config name="minimum_supported_wp_version" value="5.0" />
+	<config name="testVersion" value="5.6-" />
+
+	<!-- Rules -->
+	<rule ref="WordPress-Extra">
+		<exclude name="Generic.Commenting.DocComment.SpacingAfter" />
+		<exclude name="Generic.Functions.FunctionCallArgumentSpacing.SpaceBeforeComma" />
+		<exclude name="PEAR.Functions.FunctionCallSignature" />
+		<exclude name="Squiz.Commenting" />
+		<exclude name="Squiz.PHP.DisallowSizeFunctionsInLoops.Found" />
+		<exclude name="Squiz.WhiteSpace" />
+		<exclude name="WordPress.Arrays" />
+		<exclude name="WordPress.Files.FileName" />
+		<exclude name="WordPress.NamingConventions" />
+		<exclude name="WordPress.Security.ValidatedSanitizedInput.MissingUnslash" />
+		<exclude name="WordPress.Security.NonceVerification.Recommended" />
+		<exclude name="WordPress.WP.I18n.NonSingularStringLiteralText" />
+		<exclude name="WordPress.WhiteSpace" />
+		<exclude name="WordPress.Arrays.ArrayDeclarationSpacing"/>
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax"/>
+	</rule>
+</ruleset>
